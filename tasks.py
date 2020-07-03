@@ -66,3 +66,11 @@ print(keyword.iskeyword(a))
 print(dir(keyword))
 
 # посчитайте, сколько раз символ встречается в строке, функция принимает на вход символ и строку
+string = "I love apples, apple are my favorite fruit"
+symbol = 'a'
+
+def howMany(x,y):
+	count = x.count(y)
+	print(count)
+
+howMany(string, symbol)
