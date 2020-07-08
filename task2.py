@@ -12,9 +12,9 @@ def is_palindrome(num):
     palindrome_input_list = [int(x) for x in str(num)]
     palindrome_reverse = palindrome_input_list[ -1:: -1]
     if palindrome_input_list == palindrome_reverse:
-        print('eto palindrom')
+        print('this is pslindrome')
     else:
-        print('eto hernia kakaya-to')
+        print('this is not palindrome')
 
 
 is_palindrome(363)
